@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh 'javac AddTwoNumbers2'
+                sh 'javac AddTwoNumbers2.java'
                 sh 'Java AddTwoNumbers2'        
                    }
     }}
